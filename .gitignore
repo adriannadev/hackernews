@@ -1,0 +1,4 @@
+venv/
+.DS_Store
+## Directory-based project format:
+.idea/
