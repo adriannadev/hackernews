@@ -18,6 +18,7 @@ mega_subtext= subtext+subtext2
 def sort_by_votes(hnlist):
     return sorted(hnlist, key=lambda k:k['votes'], reverse=True)
 
+# Show only posts with at least 100 votes
 def create_custom_hn(links, subtext):
     hn=[]
 
